@@ -1,0 +1,36 @@
+.header {
+    background-color: var(--color-background);
+    height: 7rem;
+    box-shadow: var(--box-shadow-top);
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 1rem 1rem;
+    border-bottom: 0.2rem solid var(--color-primary);
+}
+
+.header div {
+    height: inherit;
+    align-content: center; 
+    text-align: center; 
+}
+
+.header ul {
+    list-style: none;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    width: 30rem;        
+}
+
+.header li {
+    align-content: center; 
+    text-align: center; 
+    font-size: x-large;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.header li :hover{    
+    color: var(--color-primary);
+    font-weight: bold;    
+}

@@ -1,0 +1,26 @@
+.carrusel {
+    box-shadow: var(--box-shadow-top);
+    padding: 0 0rem 0 0rem;
+    height: auto;
+}
+
+.carrusel section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 3rem;;
+    align-content: center;
+    text-align: center;
+}
+
+
+.carrusel img {
+    height: 15rem;
+    width: 100%;
+}
+
+.carrusel label {
+    margin: 1rem;
+    font-size: large;
+    font-weight: bolder;
+} 

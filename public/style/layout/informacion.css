@@ -1,0 +1,21 @@
+.informacion {
+     padding: 2rem;
+}
+
+.informacion div {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+}
+
+.informacion img {
+    width: 40rem;
+    height: 20rem;
+}
+
+.informacion section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+}

@@ -1,0 +1,12 @@
+@import url('./variable/color.css');
+@import url('./variable/text.css');
+
+@import url('./component/img.css');
+@import url('./component/button.css');
+@import url('./component/carrusel.css');
+
+@import url('./layout/body.css');
+@import url('./layout/header.css');
+@import url('./layout/main.css');
+@import url('./layout/footer.css');
+@import url('./layout/informacion.css');
