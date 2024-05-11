@@ -3,5 +3,5 @@ export interface carruselModel {
     nombre: string;
     url: string;
     descripcion: string;
-    nombreArchivo: string;
+    nombreArchivo: string
 }

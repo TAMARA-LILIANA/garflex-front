@@ -1,4 +1,10 @@
+/* Estilos para la clase de logo */
 .logo {
     height: 90%;
     margin: 0.2rem;
+}
+
+/* Estilos para los elementos SVG */
+svg {
+    cursor: pointer;
 }

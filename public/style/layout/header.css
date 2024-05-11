@@ -1,36 +1,97 @@
+/* Estilos para el encabezado */
 .header {
-    background-color: var(--color-background);
+    background-color: var(--color-background 51, 51, 51, 0.7);
     height: 7rem;
     box-shadow: var(--box-shadow-top);
     display: flex;
     justify-content: center;
     border-radius: 0 0 1rem 1rem;
     border-bottom: 0.2rem solid var(--color-primary);
+    z-index: 1000;
+    position: fixed;
+   /* background-color: rgba(51, 51, 51, 0.7); */
+     
 }
 
+/* Estilos para los elementos div dentro del encabezado */
 .header div {
     height: inherit;
-    align-content: center; 
-    text-align: center; 
+    align-content: center;     
 }
 
+/* Estilos para las listas dentro del encabezado */
 .header ul {
     list-style: none;
     height: inherit;
     display: flex;
     justify-content: space-around;
-    width: 30rem;        
+    width: 42rem;        
 }
 
+/* Estilos para los elementos de lista dentro del encabezado */
 .header li {
-    align-content: center; 
-    text-align: center; 
-    font-size: x-large;
+    align-content: center;     
+    font-size: larger;
     cursor: pointer;
-    margin: 2rem;
+    margin: 2.3rem;
 }
 
+/* Estilos al pasar el mause por encima de los elementos de la lista */
 .header li :hover{    
     color: var(--color-primary);
     font-weight: bold;    
+}
+
+/* Estilos para los enlaces dentro de los elementos de la lista */
+.header li a {
+    color: var(--color-text);
+    text-decoration:none;
+    /*padding:5px 12px;*/
+    display:block;
+}
+
+/* Estilos para las listas desplegables dentro de los elementos de la lista */
+.header li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    margin: 0rem 0rem 0rem -6rem;
+    font-size: x-large;
+}
+
+/* Mostrar las listas desplegables al pasar el mouse sobre los elementos de lista */
+.header li:hover > ul {
+    display:block;
+}
+
+/* Estilos para los "productos" */
+.produc {
+    font-size: x-small;
+    text-align: center;
+    border-radius: 0 0 0.8rem 0.8rem;
+    margin: 2.5rem 14.6rem -1.5rem 1rem;
+    border-bottom: 0.2rem solid var(--color-primary);
+}
+
+/* Estilos para el menú desplegable de productos */
+.pro-duct {
+    width: 30%;
+    margin: 2.5rem 0rem -1.3rem 1rem !important;
+    text-align: center;
+    font-size: small !important;
+    color: var(--color-primary);
+    border-radius: 0 0 1rem 1rem;
+    margin: 2.5rem 14.6rem -1.5rem 1rem;
+    border-bottom: 0.2rem solid var(--color-primary);
+}
+
+/* Estilos para cada elemento de producto dentro del menú desplegable */
+.pro-duct li {
+    width: 40%;
+    margin: 3rem 0rem -2.6rem 2rem !important;
+    font-size: small !important;
+    padding: 0.3rem 0rem 0rem 1rem;
+    color: var(--color-primary);
+    border-radius: 0 0 1rem 1rem;
+    border-bottom: 0.2rem solid var(--color-primary);
 }

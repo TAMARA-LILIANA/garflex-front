@@ -1,9 +1,11 @@
+/* Estilos para el contenedor del carrusel */
 .carrusel {
     box-shadow: var(--box-shadow-top);
-    padding: 0 0rem 0 0rem;
+    padding: 9rem 0 0 0;
     height: auto;
 }
 
+/* Estilos para las secciones del carrusel */
 .carrusel section {
     display: flex;
     flex-direction: column;
@@ -13,14 +15,27 @@
     text-align: center;
 }
 
-
+/* Estilos para las imágenes dentro del carrusel */
 .carrusel img {
     height: 15rem;
     width: 100%;
 }
 
+/* Estilos para las etiquetas dentro del carrusel */
 .carrusel label {
     margin: 1rem;
     font-size: large;
     font-weight: bolder;
+}
+
+/* Estilos para el indicador del carrusel */
+.carousel {
+    height: 1.2rem;
+    margin: 2rem 0rem -1rem 27rem;
 } 
+
+/* Estilos para el modal React */
+.ReactModal__Overlay {
+    z-index: 2;
+}
+

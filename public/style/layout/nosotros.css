@@ -1,0 +1,70 @@
+/* Estilos para el contenedor principal */
+.nosotr {
+  display: flex;
+  flex-direction: column;    
+  justify-content: space-around;
+  align-content: center;
+}
+
+/* Estilos para el encabezado dentro del contenedor */
+.nosotr header {
+  display: flex;
+  flex-direction: row;    
+  justify-content: space-around;
+  align-content: center;    
+  align-items: center;
+  margin: 0.5rem 0 0 24rem;        
+}
+
+/* Estilos para los elementos div dentro del contenedor */
+.nosotr div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;    
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  margin: 0.5rem;    
+  text-align: center;
+}
+
+/* Estilos para los párrafos dentro del contenedor */
+.nosotr p {       
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: justify;    
+  width: 80%;
+  height: 9.9rem;
+  font-size: smaller;         
+}
+
+/* Estilos para el contenido principal dentro del contenedor */
+.nosotr main {    
+  width: inherit;  
+  max-width: 20rem;  
+  margin: 3rem;
+  padding: 0 2rem 0 2rem;
+  border-radius:0.5rem; 
+  height: 36rem;   
+  background:var(--color-background);
+  box-shadow: var(--box-shadow-down);
+}
+
+/* Estilos para las imágenes dentro del contenedor */
+.nosotr img {
+  width: 100%;
+  margin: -4.1rem 0rem 0rem -2rem;
+  border-radius: 0.2rem;
+  height: 15rem;
+}
+
+/* Estilos para los botones dentro del contenedor */
+.nosotr button {
+  margin: -5.6rem;
+}
+
+/* Estilos para el tipo de eliminar */
+.puntos {
+  height: 1.2rem;
+  padding: 0.9rem 0rem 0rem 10.5rem;
+}

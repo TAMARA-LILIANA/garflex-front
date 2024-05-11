@@ -1,0 +1,98 @@
+/* Estilos para el formulario en general */
+.form{  
+  padding: 1rem;  
+}
+
+/* Estilos para el título del formulario */
+.form h2{
+  text-align: center;
+  font-size: xx-large;  
+  color: var(--color-primary);  
+}
+
+/* Estilos para el formulario */
+form{
+  padding: 1rem 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+/* Estilos para las secciones del formulario */
+form section{
+  display: flex;
+  text-align: left;
+  width: 15rem;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+/* Estilos para las etiquetas del formulario */
+form label{
+  margin: 1rem 0 1rem 0;
+}
+
+/* Estilos para los campos de entrada de texto del formulario */
+form input{
+  width: 15rem;
+  background: none;  
+  outline: none; 
+  border: none;  
+  border-bottom: 2px solid var(--color-primary);
+  height: 2rem;
+  color: var(--color-text);
+}
+
+/* Estilos para el botón de selección de archivos */
+input::file-selector-button {
+  background-color: var(--color-primary);
+  color: var(--color-text-back);
+  cursor: pointer;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: none;  
+}
+
+/* Estilos para el campo de entrada de texto multilinea del formulario */
+form textarea{
+  width: 15rem;
+  background: none;  
+  outline: none; 
+  border: none;
+  border-bottom: 2px solid var(--color-primary);
+  height: 2rem;
+  color: var(--color-text);
+}
+
+/* Estilos para el botón del formulario */
+form button {
+  background-color: var(--color-primary);
+  color: var(--color-text-back);
+  cursor: pointer;
+  font-size: medium;
+  height: min-content;
+  width: 60%;
+  margin: 3rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* Estilos para el menú desplegable del formulario */
+form select {
+  width: 15rem;
+  background: var(--color-background);  
+  outline: none; 
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid var(--color-primary);
+  height: 2rem;
+  color: var(--color-text);
+  
+}
+
+/* Estilos para el botón del formulario cuando el cursor pasa sobre él */
+form button:hover{    
+  border: 3px solid var(--color-primary);
+  font-weight: bolder;    
+}

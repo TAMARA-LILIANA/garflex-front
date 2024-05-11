@@ -1,0 +1,28 @@
+/* Estilos para el contenedor de la sección de contacto */
+.contact {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* Estilos para los elementos div dentro de la sección de contacto */
+.contact div {
+    width: 40%;
+    margin: 3rem;
+    align-content: center;
+    text-align: center;
+}
+
+/* Estilos para los títulos h2 dentro de la sección de contacto */
+.contact h2{
+    text-align: center;
+    font-size: xx-large;  
+    color: var(--color-primary);  
+}
+
+/* Estilos para los elementos iframe dentro de la sección de contacto */
+.contact iframe{
+    border-radius: 2rem;
+    border: none;
+}

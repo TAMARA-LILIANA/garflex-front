@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../../assets/img/Logo.png"
 import { faFacebook, faGoogle, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
+// Declara el componente Footer
 export const Footer = () => {
   return (
     <>
@@ -21,17 +22,19 @@ export const Footer = () => {
             </ul>
             <ul>
               <li><b>Sabados</b></li>
-              <li>9:00 am - 12:00am</li>
+              <li>9:00 am - 12:00pm</li>
             </ul>
           </div>
-          <div>
-            <section>
-              <FontAwesomeIcon icon={faFacebook} size="2xl" />
-              <FontAwesomeIcon icon={faGoogle} size="2xl" />
-              <FontAwesomeIcon icon={faInstagram} size="2xl" />
-              <FontAwesomeIcon icon={faXTwitter} size="2xl" />
-            </section>            
+
+            {/* Sección de iconos de redes sociales */}
+          <div className="social-">
+              <a href="https://directorio-empresas.einforma.co/informacion-empresa/etiquetas-garflex-sas" className="icon"><i className="fa-brands fa-google-plus-g"></i></a>
+              <a href="https://www.facebook.com/etiquetasgarflexsas/" className="icon"><i className="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/etiquetasgarflex/?hl=es" className="icon"><i className="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/garflex2018?s=20" className="icon"><i className="fa-brands fa-twitter"></i></a>
           </div>
+
+            {/* Sección de información de contacto */}
           <div>
             <h3><b><i>Información</i></b></h3>
             <ul>
@@ -46,9 +49,7 @@ export const Footer = () => {
           </div>
         </footer>
         <aside>
-
-                <p>Derechos reservados &COPY;GenTrek</p>
-
+          <p>Derechos reservados &copy;GenTrek</p> {/* Mensaje de derechos reservados */}
         </aside>
       </div>
     </>

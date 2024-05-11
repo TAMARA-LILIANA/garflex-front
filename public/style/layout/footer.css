@@ -1,3 +1,4 @@
+/* Estilos para el pie de página */
 .footer {
     width: 100%;
     background-color: var(--color-background);
@@ -7,6 +8,7 @@
     padding-bottom: 1rem;
 }
 
+/* Estilos para el encabezado del pie de página */
 .footer header {
     width: 100%;
     height: 7rem;
@@ -15,14 +17,15 @@
     margin: 1rem 0rem 1rem 0rem;
 }
 
+/* Estilos para el contenido principal del pie de página */
 .footer main {
     width: 100%;
     text-align: center;
     font-weight: 800;
-    font-size: large;
-    
+    font-size: large; 
 }
 
+/* Estilos para el pie de página */
 .footer footer {
     width: 100%;
     display: flex;
@@ -31,32 +34,64 @@
     margin: 1rem 0rem 1rem 0rem;
 } 
 
+/* Estilos para los títulos h3 dentro del pie de página */
 .footer h3 {
     color: var(--color-primary);
 }
 
+/* Estilos para las listas dentro del pie de página */
 .footer ul {
     list-style: none;
 }
 
+/* Estilos para los elementos SVG dentro del pie de página */
 .footer svg {
     margin: 2rem;
 }
 
+/* Estilos para los elementos div dentro del pie de página */
 .footer div {
-    width: 22rem;
+    width: 21rem;
     
 }
 
+/* Estilos para las secciones dentro del pie de página */
 .footer section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
+/* Estilos para los elementos aside dentro del pie de página */
 .footer aside {
     color: var(--color-text);
     background-color: var(--color-background);
-    box-shadow: var(--box-shadow-down);
     border-top: 0.2rem solid var(--color-primary);
-    padding-bottom: 1rem; 
+    text-align: center;
+    margin: 0rem 0rem -1rem 0rem;
+}
+
+/* Estilos para los enlaces dentro de las secciones */
+section a {
+    color: var(--color-primary);
+}
+
+/* Estilos para la sección de enlaces sociales */
+.social-{
+    margin: 20px 0;
+}
+
+/* Estilos para los enlaces sociales */
+.social- a{
+    
+    border: 1px solid var(--color-primary);
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 18px;
+    width: 40px;
+    height: 40px;
+    color: var(--color-text);   
+    text-decoration: none;   
 }

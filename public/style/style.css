@@ -1,12 +1,23 @@
+/* Importa el archivo CSS que contiene las variables relacionadas con los colores */
 @import url('./variable/color.css');
+
+/* Importa el archivo CSS que contiene las variables relacionadas con el texto */
 @import url('./variable/text.css');
 
+/* Importa los archivos CSS que contienen estilos para diferentes componentes */
 @import url('./component/img.css');
 @import url('./component/button.css');
 @import url('./component/carrusel.css');
+@import url('./component/form.css');
+@import url('./component/loading.css');
 
+/* Importa los archivos CSS que contienen estilos para diferentes secciones del diseño */
 @import url('./layout/body.css');
 @import url('./layout/header.css');
 @import url('./layout/main.css');
 @import url('./layout/footer.css');
 @import url('./layout/informacion.css');
+@import url('./layout/contact.css');
+@import url('./layout/usuario.css');
+@import url('./layout/product.css');
+@import url('./layout/nosotros.css');
