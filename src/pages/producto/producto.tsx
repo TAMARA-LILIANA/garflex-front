@@ -22,7 +22,7 @@ export const Producto = () => {
     <>
       <div className="product">
         <header>
-          <h1>Etiquetas Garflex</h1>
+          <h1> </h1>
 
           {
             user != null && user === 'true' ? 

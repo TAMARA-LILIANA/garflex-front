@@ -1,7 +1,7 @@
 /* Estilos para el contenedor del carrusel */
 .carrusel {
     box-shadow: var(--box-shadow-top);
-    padding: 9rem 0 0 0;
+    padding: 3rem 0 0 0;
     height: auto;
 }
 

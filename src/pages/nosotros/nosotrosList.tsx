@@ -1,9 +1,8 @@
-import { faPencil, faTrashCan } from "@fortawesome/free-solid-svg-icons";
+import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { nosotrosModel } from "../../types/nosotrosModel";
 import * as nosotrosService from '../../common/services/nosotrosService';
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { useLoading } from "../../common/context/loadingContext";
 
 interface ListProps {
@@ -38,31 +37,33 @@ export const NosotrosList: React.FC<ListProps> = ({ reload }) => {
         nosotross.map((i, index) =>
         (
           <main key={i.id}>
-            <div className='puntos'>
+            <div className='canas-basur'>
               {
                 user != null && user === 'true' ? (
-                  <div className='puntos'>
+                  <div>
                     <FontAwesomeIcon icon={faTrashCan} onClick={() => deleteNosotros(i)} />
                   </div>
                 ) : (
-                  <div className='puntos'>
-
+                  <div className=''>
                   </div>
                 )
               }
-              
             </div>
+
             <div>
-              <img src={i.url} alt="" />
+              <h2 className="titulo">{i.nombre}</h2>
             </div>
-            <div>
-              <h4>{i.nombre}</h4>
-            </div>
-            <div>
-              <p>{i.descripcion}</p>
-            </div>
-            <div>
-              <Link to="/nosotros"><button className='button'>Mas Información</button></Link>
+
+            <div className="nosot">
+              <div>
+                <img src={i.url} alt="" />
+              </div>
+              <div>
+                <p>{i.descripcion}</p>
+              </div>
+              {/*<div>
+                <Link to="/nosotros"><button className='button'>Mas Información</button></Link>
+              </div>*/}
             </div>
           </main>
         )

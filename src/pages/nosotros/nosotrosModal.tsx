@@ -98,7 +98,7 @@ export const NosotrosModal: React.FC<ModalProps> = ({ id,isOpen,onClose }) => {
               <label>Descripcion</label>
               <textarea name="descripcion" value={formData.descripcion} onChange={handleInputChange} placeholder="Descripcion"/>                                                        
             </section>                    
-            <button type="submit" >Crear</button>                             
+            <button type="submit" className="info">Crear</button>                             
           </form> 
         </div>               
       </Modal>

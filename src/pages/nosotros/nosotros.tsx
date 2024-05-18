@@ -21,15 +21,15 @@ export const Nosotros = () => {
   
   return (
     <>
-      <div className="informacion"> 
+      <div className="crear-nosot"> 
         <header>          
             {
               user != null && user === 'true' ? (
-                <div className='puntos'>
+                <div>
                   <button onClick={openModal}>Crear</button>            
                 </div>
               ) : (
-                <div className='puntos'>
+                <div className=''>
 
                 </div>
               )

@@ -1,6 +1,7 @@
 /* Definición de variables para el tema claro */
 :root {
     --color-background: #f9f9f9; /* Color de fondo */
+    --color-background-header:rgba(255, 254, 254, 0.812);
     --color-primary: #017aef; /* Color primario */
     --color-secondary: #e60000; /* Color secundario */
     --color-text: #191919; /* Color de texto */
@@ -18,6 +19,7 @@
 /* Cambios de variables para el tema oscuro */
 [data-theme="dark"] {
     --color-background: #191919; /* Color de fondo */
+    --color-background-header:rgba(19, 19, 19, 0.812);
     --color-primary: #e60000; /* Color primario */
     --color-secondary: #017aef; /* Color secundario */
     --color-text: #f9f9f9; /* Color de texto */

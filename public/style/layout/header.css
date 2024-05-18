@@ -1,16 +1,20 @@
 /* Estilos para el encabezado */
 .header {
-    background-color: var(--color-background 51, 51, 51, 0.7);
+    background-color: var(--color-background-header);
     height: 7rem;
     box-shadow: var(--box-shadow-top);
     display: flex;
+    /*margin: 0rem 0rem 0rem -0.4rem;*/
     justify-content: center;
     border-radius: 0 0 1rem 1rem;
     border-bottom: 0.2rem solid var(--color-primary);
     z-index: 1000;
     position: fixed;
-   /* background-color: rgba(51, 51, 51, 0.7); */
-     
+
+    top: 0;
+    left: 0;
+    width: 100%;  /* Asegura que el header abarque todo el ancho */
+    margin: 0;
 }
 
 /* Estilos para los elementos div dentro del encabezado */
@@ -76,22 +80,48 @@
 /* Estilos para el menú desplegable de productos */
 .pro-duct {
     width: 30%;
-    margin: 2.5rem 0rem -1.3rem 1rem !important;
     text-align: center;
+    position: relative;
     font-size: small !important;
     color: var(--color-primary);
     border-radius: 0 0 1rem 1rem;
-    margin: 2.5rem 14.6rem -1.5rem 1rem;
-    border-bottom: 0.2rem solid var(--color-primary);
+    margin: 2.2rem 0rem -1.1rem 2rem !important;
+    border-bottom: 0.2rem solid var(--color-primary); 
 }
 
 /* Estilos para cada elemento de producto dentro del menú desplegable */
 .pro-duct li {
-    width: 40%;
-    margin: 3rem 0rem -2.6rem 2rem !important;
+    width: 100%;
+    margin: 0 !important;
     font-size: small !important;
     padding: 0.3rem 0rem 0rem 1rem;
     color: var(--color-primary);
     border-radius: 0 0 1rem 1rem;
-    border-bottom: 0.2rem solid var(--color-primary);
+    border-bottom: 0.2rem solid var(--color-primary);  
+}
+
+/*Estilos del whatsApp*/
+
+.what {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 50px;
+    right: 18px;
+    color: white;
+    border-radius: 30%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.whats {
+    font-size: 60px;
+    border-radius: 5rem 5rem 5rem 5rem;
+}
+.what:hover {
+    text-decoration: none;
+    color: #57e88c;
+    background:#fff;
 }

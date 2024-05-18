@@ -1,7 +1,6 @@
 /* Estilos del bloque de información de productos */
 .informacion {
-     /*padding: 6rem;*/
-     padding: 6rem 0rem 0rem 4rem;
+     padding: 1rem 0rem 0rem 4rem;
 }
 
 /* Estilos para el contenedor principal */
@@ -12,34 +11,33 @@
 
 /* Estilos para la información adicional */
 .infor {
-    padding: 0 0 0 64rem;
+    /*padding: 0 0 0 64rem;*/
 }
 
 /* Estilos para el título */
 .informacion h1 {
-    margin: -4rem 0rem -4rem 39rem;
+    margin: 4rem 0rem -2rem 39rem;
     font-family:Verdana, Helvetica, monospace;
 }
 
 /* Estilos para las imágenes */
 .informacion img {
-    width: 30rem;
-    height: 17rem;
-    border-radius: 100rem 100rem 100rem 100rem;
+    width: 23rem;
+    height: 15rem;
+    border-radius: 20rem 20rem 20rem 20rem !important;
 }
 
 /* Estilos para los párrafos */
 .informacion p {
-    width: 43rem;
+    width: 47rem;
     margin: 3rem 0rem 0rem -3rem;
 }
 
 /* Estilos para el contenedor secundario */
 .informacion div {
     flex-direction: row;
-    margin: 3rem 3rem 3rem 3rem;
+    margin: 1rem 6rem 1rem 3rem;
 }
-
 
 .informacion section {
     display: flex;

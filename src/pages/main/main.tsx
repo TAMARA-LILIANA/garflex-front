@@ -2,6 +2,7 @@ import { Carrusel } from "./carrusel";
 import { Informacion } from "./informacion";
 
 
+
 export const Main = () => {
     return (
       <>
@@ -9,6 +10,8 @@ export const Main = () => {
           <Carrusel />          
           <Informacion />
         </div>
+        
+        
       </>
     );
   }

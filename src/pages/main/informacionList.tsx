@@ -39,6 +39,9 @@ export const InformacionList: React.FC<ListProps> = ({reload}) => {
       setIsVisible(false);      
     }
 
+    
+
+
     // Renderización del componente InformacionList
     return (
       <>

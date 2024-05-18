@@ -6,7 +6,8 @@ interface AppConfig {
 
 // Objeto que contiene la configuración de la aplicación
 const config: AppConfig = {
-  baseApiUrl: 'http://localhost:8092/api/v1/',
+  baseApiUrl: 'https://garflex-app.azurewebsites.net/api/v1/',
+  //baseApiUrl: 'http://localhost:8092/api/v1/',
     
 };
 
@@ -18,7 +19,7 @@ const config: AppConfig = {
     right: 'auto',
     bottom: 'auto',
     marginRight: '-10%',      
-    transform: 'translate(-50%, -50%)',
+    transform: 'translate(-50%, -40%)',
     borderRadius: '2rem',
     border: '0.01rem solid var(--color-primary)',
     background:'var(--color-background)',

@@ -1,6 +1,9 @@
 /* Estilos para el formulario en general */
 .form{  
   padding: 1rem;  
+  /*background-color: blue;
+  height: 10rem;
+  margin: 10rem 10rem 10rem 10rem;*/
 }
 
 /* Estilos para el título del formulario */
@@ -12,11 +15,12 @@
 
 /* Estilos para el formulario */
 form{
-  padding: 1rem 0 0 0;
+ /*padding: 1rem 0 0 0;*/
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: center;
+  /*margin: 1rem 1rem 1rem 1rem;*/
 }
 
 /* Estilos para las secciones del formulario */

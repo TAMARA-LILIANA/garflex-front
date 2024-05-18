@@ -4,6 +4,7 @@
     flex-direction: row;    
     justify-content: space-around;
     align-content: center;
+    height: 50rem;
 }
 
 /* Estilos para los elementos div dentro de la sección de contacto */

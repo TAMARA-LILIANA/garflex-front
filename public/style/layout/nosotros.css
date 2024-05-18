@@ -60,11 +60,39 @@
 
 /* Estilos para los botones dentro del contenedor */
 .nosotr button {
-  margin: -5.6rem;
+  margin: 10rem;
 }
 
 /* Estilos para el tipo de eliminar */
 .puntos {
   height: 1.2rem;
   padding: 0.9rem 0rem 0rem 10.5rem;
+}
+
+.canas-basur {
+  padding: 1rem 0rem 1rem 2rem;
+}
+.titulo {
+  margin: 0rem 0rem -2rem 39rem;
+}
+.nosot {
+  display: flex;
+  height: 25rem;
+  margin: 3.2rem 0rem 0rem 2rem;
+}
+.nosot img {
+  /*border-radius: 2rem 2rem 2rem 2rem;
+  height: 63%;
+  width: 65%;
+  margin: 3rem 0rem 0rem 10rem;*/
+  width: 20rem;
+  height: 20rem;
+  /*border-radius: 100rem 100rem 100rem 100rem;*/
+}
+.nosot p {
+  width: 51rem;
+  margin: 3rem 0rem 0rem 10rem;
+}
+.crear-nosot{
+  padding: 8rem 0rem 0rem 6rem;
 }

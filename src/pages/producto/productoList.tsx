@@ -47,16 +47,14 @@ export const ProductoList: React.FC<ListProps> = ({ reload }) => {
         productos.map((i, index) =>
         (
           <main key={i.id}>
-            <div className='puntos'>
-
-            </div>
+            
             {
               user != null && user === 'true' ? (
-                <div className='puntos'>
+                <div className='caneca-basura'>
                   <FontAwesomeIcon icon={faTrashCan} onClick={() => deleteProduct(i)} />
                 </div>
               ) : (
-                <div className='puntos'>
+                <div className=''>
 
                 </div>
               )

@@ -1,9 +1,19 @@
 import { Link } from 'react-router-dom';
 import logo from '../../assets/img/Logo.png';
 import { Theme } from './theme';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp,  } from "@fortawesome/free-brands-svg-icons";
+import { useNavigate } from 'react-router-dom'; 
 
 // Declara el componente Header
 export const Header = () => {
+    const navigate  = useNavigate();
+    let user = localStorage.getItem('user');
+
+    const salir = async () => {
+      localStorage.removeItem('user');
+      navigate('/'); 
+    }
     // Inicia la sección del header 
     return (
       <>
@@ -38,10 +48,19 @@ export const Header = () => {
                 <Link to="/contacto">Contactenos</Link>                
               </li>
               <li>
-                <Link to="/usuario">
-                  {/* Botón para iniciar sesión */}
-                  <button className='button'>Iniciar Sesión</button>
-                </Link>
+
+                {
+                  user != null && user === 'true' ? (                  
+                      <button className='button' onClick={() => salir()}>Salir</button>                    
+                  ) : (
+                    <Link to="/usuario">
+                      {/* Botón para iniciar sesión */}
+                      <button className='button'>Iniciar Sesión</button>
+                    </Link>
+                  )
+                }
+
+                
               </li>
               <li>
                 {/* Componente para cambiar el tema */}
@@ -49,6 +68,12 @@ export const Header = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+        <div>
+          <a href="https://api.whatsapp.com/send?phone=3195241431&text=Quiero%20mas%20info" target="blank" className="what">
+            <FontAwesomeIcon icon={faWhatsapp} className="whats"/>
+          </a>
         </div>
       </>
     );

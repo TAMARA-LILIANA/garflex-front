@@ -58,19 +58,21 @@ export const Carrusel = () => {
 
     return (
       <>
-      {/* Encabezado con botón para crear una nueva imagen del carrusel */}
-        <header>
-          {
-            user != null && user === 'true'? 
-            (
-              <button onClick={openModal}>Crear</button>
-            ) : 
-            (
-              <label></label>
-            )
-          }
-        </header>
+      
         <div className='carrusel'>
+          {/* Encabezado con botón para crear una nueva imagen del carrusel */}
+          <header>
+            {
+              user != null && user === 'true'? 
+              (
+                <button onClick={openModal}>Crear</button>
+              ) : 
+              (
+                <label></label>
+              )
+            }
+          </header>
+
           <Swiper
             effect={'coverflow'}
             grabCursor={true}

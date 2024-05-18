@@ -14,7 +14,7 @@
     height: 7rem;
     display: flex;
     justify-content: center;
-    margin: 1rem 0rem 1rem 0rem;
+    /*margin: 9rem 0rem 1rem 0rem;*/
 }
 
 /* Estilos para el contenido principal del pie de página */
@@ -28,10 +28,12 @@
 /* Estilos para el pie de página */
 .footer footer {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 1rem 0rem 1rem 0rem;
+    /*margin: 0rem 0rem 7rem 0rem;*/
 } 
 
 /* Estilos para los títulos h3 dentro del pie de página */
@@ -68,6 +70,7 @@
     background-color: var(--color-background);
     border-top: 0.2rem solid var(--color-primary);
     text-align: center;
+    /*height: 11rem;*/
     margin: 0rem 0rem -1rem 0rem;
 }
 
@@ -83,7 +86,6 @@ section a {
 
 /* Estilos para los enlaces sociales */
 .social- a{
-    
     border: 1px solid var(--color-primary);
     border-radius: 20%;
     display: inline-flex;
